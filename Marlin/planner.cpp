@@ -97,7 +97,7 @@ static float previous_speed[NUM_AXIS]; // Speed of previous path line segment
 static float previous_nominal_speed; // Nominal speed of previous path line segment
 
 #ifdef AUTOTEMP
-float autotemp_max=250;
+float autotemp_max=260;
 float autotemp_min=210;
 float autotemp_factor=0.1;
 bool autotemp_enabled=false;

@@ -41,10 +41,10 @@ namespace temp
 
 
 	// Temperature parameters
-	const static uint8_t default_temp_change_filament = 200;
-	const static uint8_t min_temp_cooling = 50;
-	const static uint8_t min_temp_operation = 170;
-	const static uint8_t max_temp_operation = 250;
+	const static uint16_t default_temp_change_filament = 200;
+	const static uint16_t min_temp_cooling = 50;
+	const static uint16_t min_temp_operation = 170;
+	const static uint16_t max_temp_operation = 260;
 
 	class TemperatureManager : public Subject<float>
 	{
