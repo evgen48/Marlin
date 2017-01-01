@@ -192,7 +192,7 @@ endif
 VPATHTEMP += $(ARDUINO_INSTALL_DIR)/hardware/arduino/avr/variants/mega
 
 # SPI library
-VPATHTEMP += $(ARDUINO_INSTALL_DIR)/hardware/arduino/avr/libraries/SPI
+VPATHTEMP += $(ARDUINO_INSTALL_DIR)/hardware/arduino/avr/libraries/SPI/src
 CXXSRC += SPI.cpp
 
 VPATHTEMP += .
